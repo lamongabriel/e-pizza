@@ -175,5 +175,6 @@ function sideCart() {
         // If empty, sideCart hides
     } else {
         qs("aside").classList.remove("show");
+        qs("aside").style.left = '100vw'
     }
 }
